@@ -7,5 +7,5 @@ as long as they are in the Wikipedia database, and store them in a relational da
 In the future this program will fetch from other terms on Wikipedia to build a network of terms
 
 
-This program uses BeautifulSoup, Panda
+This program uses BeautifulSoup, Pandas
 Install requirement.txt using pip to get all packages used in this program
