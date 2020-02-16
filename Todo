@@ -1,0 +1,10 @@
+# How to organize a network of term and show the most relevant terms around one term
+
+Similiar to Co-citation, if two Wikipedia pages contain similar set of terms, those two pages are highly related.
+Using this method, we can rank all terms in a Wikipedia page by their relation to the current term
+
+However, this ranking method will assign a high rank to items at the same level with the current item while
+assign a lower rank to items at different levels.
+e.g. If the input is SARS, this method will return MERS, coronavirus, or other resparitary virus that are at the same level 
+with SARS. It will less likely to return higher level terms like "virus" "micro-organism" or lower level terms like 
+"SARS outbreak in China"
